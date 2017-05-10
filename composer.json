@@ -1,0 +1,24 @@
+{
+    "name": "longtimett/random",//名称，工程名
+    "description": "",
+    "type": "library",
+    "keywords": [],
+    "homepage": "https://github.com/longtimett/random",//访问地址
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "longtimett",//名称
+            "email": "3197236560@qq.com",//邮箱
+            "homepage": "https://github.com/longtimett"
+        }
+    ],
+    "require": {
+        "php": "^7.0"//版本
+    },
+
+    "autoload": {
+        "psr-4": {"longtimett\\random\\": "src/"}
+    }
+
+
+}
